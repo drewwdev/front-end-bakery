@@ -1,11 +1,13 @@
 import React from "react";
+import FeaturedCreations from "../components/featuredCreations/featuredCreations";
 
-import LandingPage from "./landingPage";
+import Header from "../components/header";
 
 const IndexPage = () => {
   return (
     <>
-      <LandingPage />
+      <Header />
+      <FeaturedCreations />
     </>
   );
 };

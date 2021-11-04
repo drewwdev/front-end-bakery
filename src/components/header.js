@@ -1,7 +1,7 @@
 import React from "react";
-import Form from "../components/form";
+import Form from "./form";
 
-const LandingPage = () => {
+const Header = () => {
   return (
     <div
       className="object-cover bg-center bg-no-repeat bg-local h-screen w-full flex items-center justify-center"
@@ -17,4 +17,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default Header;
