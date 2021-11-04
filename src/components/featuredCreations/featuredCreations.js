@@ -1,6 +1,6 @@
 import React from "react";
 
-import { creations } from "./creations";
+import { creations } from "./Creations";
 
 const FeaturedCreations = () => {
   return (
