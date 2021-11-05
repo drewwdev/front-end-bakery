@@ -16,9 +16,11 @@
   },
   "dependencies": {
     "gatsby": "^4.1.0",
+    "gatsby-plugin-react-helmet": "^5.1.0",
     "init": "^0.1.2",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
