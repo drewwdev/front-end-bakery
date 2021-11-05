@@ -1,6 +1,7 @@
 import React from "react";
-import FeaturedCreations from "../components/featuredCreations/FeaturedCreations";
+import FeaturedCreations from "../components/FeaturedCreations";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import { Helmet } from "react-helmet";
 
 const IndexPage = () => {
@@ -12,6 +13,7 @@ const IndexPage = () => {
       </Helmet>
       <Header />
       <FeaturedCreations />
+      <Footer />
     </>
   );
 };
