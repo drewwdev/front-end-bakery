@@ -2,7 +2,7 @@ import React from "react";
 
 function Title() {
   return (
-    <div className="w-auto flex-col items-center justify-center">
+    <div className="w-96 flex-col items-center justify-center">
       <p className="font-serif text-6xl sm:text-8xl px-4 text-white">
         Mia's Bakery
       </p>
