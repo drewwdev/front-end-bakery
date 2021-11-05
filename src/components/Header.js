@@ -10,7 +10,7 @@ const Header = () => {
         backgroundImage: `url('https://images.unsplash.com/photo-1504400739660-22ebeb14f00a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80')`,
       }}
     >
-      <div className="sm:flex justify-center items-center">
+      <div className="sm:flex sm:px-12 justify-center items-center">
         <Title />
         <Form />
       </div>
