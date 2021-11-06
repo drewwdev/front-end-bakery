@@ -1,20 +1,31 @@
 import React from "react";
-import Form from "./Form";
+import { graphql, useStaticQuery } from "gatsby";
+import BackgroundImage from "gatsby-background-image";
+import { convertToBgImage } from "gbimage-bridge";
+
 import Title from "./Title";
 
 const Header = () => {
+  const { hero } = useStaticQuery(graphql`
+    query MyQuery {
+      hero: file(name: { eq: "hero-img" }) {
+        name
+        childImageSharp {
+          gatsbyImageData
+        }
+      }
+    }
+  `);
+
   return (
-    <div
-      className="object-cover bg-center bg-no-repeat bg-local h-screen w-full flex items-center justify-center"
-      style={{
-        backgroundImage: `url('https://images.unsplash.com/photo-1504400739660-22ebeb14f00a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80')`,
-      }}
+    <BackgroundImage
+      {...convertToBgImage(hero.childImageSharp.gatsbyImageData)}
+      className="flex items-center justify-center object-cover w-full h-screen bg-local bg-center bg-no-repeat"
     >
-      <div className="sm:flex sm:px-12 justify-center items-center">
+      <div className="items-center justify-center sm:flex sm:px-12">
         <Title />
-        <Form />
       </div>
-    </div>
+    </BackgroundImage>
   );
 };
 
