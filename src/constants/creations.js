@@ -22,7 +22,6 @@ export const creations = [
   },
   {
     name: "Whole Wheat Spiced Vanilla Cake",
-
     url: "https://res.cloudinary.com/dywxgxp7k/image/upload/v1636053437/front-end-bakery/159945337_185563033095586_8270311067493917165_n_cisvub.jpg",
     description:
       "mixed berry rosé compote with orange bitters, vanilla swiss meringue buttercream",

@@ -35,7 +35,7 @@ const Footer = (props) => {
           ))}
         </section>
         <p className="mt-8 text-base text-center text-gray-400">
-          &copy; 2020 Workflow, Inc. All rights reserved.
+          Made with ♥ by Drew Wilson
         </p>
       </div>
     </footer>

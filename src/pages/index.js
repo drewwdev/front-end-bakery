@@ -1,8 +1,6 @@
 import React from "react";
-import FeaturedCreations from "../components/FeaturedCreations";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import { Helmet } from "react-helmet";
+import LandingPage from "./landingPage";
 
 const IndexPage = () => {
   return (
@@ -11,9 +9,7 @@ const IndexPage = () => {
         <meta charSet="utf-8" />
         <title>Mia's Bakery</title>
       </Helmet>
-      <Header />
-      <FeaturedCreations />
-      <Footer />
+      <LandingPage />
     </>
   );
 };
