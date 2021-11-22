@@ -16,7 +16,7 @@ const FeaturedCreations = () => {
                 <div className="w-full overflow-hidden bg-gray-200 rounded-md min-h-80 aspect-w-1 aspect-h-1 group-hover:opacity-75 lg:h-80 lg:aspect-none">
                   <img
                     src={object.url}
-                    alt="Easter cake"
+                    alt={object.name}
                     className="object-cover object-center w-full h-full lg:w-full lg:h-full"
                   />
                 </div>
