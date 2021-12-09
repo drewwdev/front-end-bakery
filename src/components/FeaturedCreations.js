@@ -35,7 +35,7 @@ const FeaturedCreations = () => {
                       {object.description}
                     </p>
                   </div>
-                  <p className="text-sm font-medium text-gray-900">$50</p>
+                  
                 </div>
               </div>
             );

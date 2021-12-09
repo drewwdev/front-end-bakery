@@ -2,6 +2,7 @@ import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import BackgroundImage from "gatsby-background-image";
 import { convertToBgImage } from "gbimage-bridge";
+import Form from "../components/Form";
 
 import Title from "./Title";
 
@@ -24,6 +25,7 @@ const Header = () => {
     >
       <div className="items-center justify-center sm:flex sm:px-12">
         <Title />
+        <Form />
       </div>
     </BackgroundImage>
   );

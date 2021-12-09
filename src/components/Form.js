@@ -3,8 +3,8 @@ import React from "react";
 const Form = () => {
   return (
     <div>
-      <form className="flex-col py-6 text-gray-600">
-        <div className="flex-col">
+      <form className="flex-col py-6 text-gray-600 ">
+        <div className="flex-col justify-center items-center">
           <div className="flex-col items-center p-4 sm:flex-row">
             <label className="px-4 text-4xl text-white">Name</label>
             <input
